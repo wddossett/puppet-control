@@ -15,3 +15,17 @@ mod "puppetlabs/java",        '1.6.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'ntp',
+  :git => 'https://github.com/wddossett/puppet-ntp.git',
+  :ref => 'master'
+
+mod 'role',
+  :git => 'git@github.com:wddossett/puppet-role.git',
+  :ref => 'master'
+
+mod 'profile',
+  :git => 'https://github.com/wddossett/puppet-profile.git',
+  :ref => 'master'
+
+
